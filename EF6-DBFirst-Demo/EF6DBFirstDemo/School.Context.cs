@@ -18,7 +18,7 @@ namespace EF6DBFirstDemo
     public partial class SchoolDBEntities : DbContext
     {
         public SchoolDBEntities()
-            : base("name=SchoolDBEntities")
+            : base("name=SchoolDBEntities-EF6-DBFirst") // App.config name=SchoolDBEntities
         {
         }
     
